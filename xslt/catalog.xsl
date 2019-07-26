@@ -18,7 +18,7 @@
       <xsl:apply-templates/>
     </table>
   </xsl:template>
-  <xsl:template match="trainer">
+  <xsl:template match="product">
     <tr>
       <td>
         <span>Тренажер Агашина — </span>

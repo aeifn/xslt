@@ -2,75 +2,75 @@
 <catalog>
   <class name="Универсальные модели">
     <comment>Универсальные тренажеры для спортивных, оздоровительных, лечебно-восстановительных и профилактических занятий.</comment>
-    <image src="catalog/trainers"/>
-    <trainer id="M" alt="мужской">
+    <image src="catalog/products"/>
+    <product type="ta" id="M" alt="мужской">
       <param D="40" L="550" FREQ="2–6" W="1.2–1.5"/>
       <price>3450</price>
-    </trainer>
-    <trainer id="L" alt="женский">
+    </product>
+    <product type="ta" id="L" alt="женский">
       <param D="25-40" L="550" FREQ="2–6" W="0,9–1,1"/>
       <price>3250</price>
-    </trainer>
-    <trainer id="Y" alt="для подростков">
+    </product>
+    <product type="ta" id="Y" alt="для подростков">
       <param D="25-40" L="420" FREQ="1,0-6,0" W="0,7-0,8"/>
       <price>2850</price>
-    </trainer>
-    <trainer id="C" alt="школьный">
+    </product>
+    <product type="ta" id="C" alt="школьный">
       <param D="25-40" L="320-350" FREQ="1,0-6,0" W="0,5-0,6"/>
       <price>2450</price>
-    </trainer>
-    <trainer id="D" alt="детский">
+    </product>
+    <product type="ta" id="D" alt="детский">
       <param D="25-32" L="200-300" FREQ="1,0-6,0" W="0,3-0,4"/>
       <price>2200</price>
-    </trainer>
+    </product>
   </class>
   <class name="Модели повышенной комфортности и длины *">
     <comment>Тренажеры повышенной комфортности для спортивных, оздоровительных, лечебно-восстановительных и профилактических занятий</comment>
-    <trainer type="ta" id="MM" alt="мужской, длина 700 мм">
+    <product type="ta" id="MM" alt="мужской, длина 700 мм">
       <param D="40" L="700" FREQ="2,0-6,0" W="1,3-1,6"/>
       <price>3750</price>
-    </trainer>
-    <trainer type="ta" id="LM" alt="женский, длина 700 мм">
+    </product>
+    <product type="ta" id="LM" alt="женский, длина 700 мм">
       <price>3600</price>
       <param FREQ="2,0-6,0" L="700" D="32" W="1,0-1,1"/>
-    </trainer>
-    <trainer type="ta" id="CM" alt="женский, 700 мм, легкий">
+    </product>
+    <product type="ta" id="CM" alt="женский, 700 мм, легкий">
       <price>3450</price>
       <param FREQ="2,0-6,0" L="700" D="25" W="0,5-0,8"/>
-    </trainer>
-    <trainer type="ta" id="GP" alt="Волновая гимнастическая палка, универсальный, 900 мм">
+    </product>
+    <product type="ta" id="GP" alt="Волновая гимнастическая палка, универсальный, 900 мм">
       <price>3 800</price>
       <param FREQ="2,0 - 6,0" L="900" D="25-32" W="0,5-1,5"/>
-    </trainer>
-    <trainer type="ta" id="POS" alt="посох, длина более 900">
+    </product>
+    <product type="ta" id="POS" alt="посох, длина более 900">
       <price>3800-4750</price>
       <param FREQ="2,0 - 6,0" L=">900" D="25-40" W="0,5-1,5"/>
-    </trainer>
+    </product>
   </class>
   <!-- SPORT SPORT SPORT -->
   <class name="Спортивные тренажеры">
     <comment>Для всех пользователей (лист Параметры). Масса более трех килограмм +410 руб/кг</comment>
-    <trainer type="ta" id="S, Sv">
+    <product type="ta" id="S, Sv">
       <comment>комб. рукоят.</comment>
       <price>5 300</price>
       <param FREQ="1,5 -3,0" L="300-700" W="1,5-10,0"/>
-    </trainer>
-    <trainer type="ta" id="S, Sv">
+    </product>
+    <product type="ta" id="S, Sv">
       <comment>две рукоятки</comment>
       <price>5200</price>
       <param FREQ="1,5 -3,0" L="300-700" W="1,5-10,0"/>
-    </trainer>
-    <trainer type="ta" id="S">
+    </product>
+    <product type="ta" id="S">
       <price>4 700</price>
       <param FREQ="1,5 -3,0" L="300-700" W="1,5-10,0"/>
-    </trainer>
+    </product>
   </class>
   <class name="Спортивные модели * (в трубке-корпусе)">
     <comment>Для всех пользова-телей (лист Параметры)</comment>
-    <trainer type="ta" id="SPEC" alt="спортивный (укороченный)">
+    <product type="ta" id="SPEC" alt="спортивный (укороченный)">
       <price>2550</price>
       <param FREQ="4,0-7,0" L="150-350" D="25-40" W="0,2-1,2"/>
-    </trainer>
+    </product>
   </class>
 
 </catalog>
