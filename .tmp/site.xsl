@@ -1,17 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-  <xsl:template match="/site">
-    <html>
-      <head>
-        <link rel="stylesheet" href="style.css" />
-        <title>
-        </title>
-      </head>
-      <body>
-        <xsl:apply-templates/>
-      </body>
-    </html>
-  </xsl:template>
+  <xsl:include href="html.xsl"/>
   <!--PAGE-->
   <xsl:template match="page">
     <hr/>

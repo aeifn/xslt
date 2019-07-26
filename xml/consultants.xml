@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<info>
+<consultants>
+  <consultant>
+    <name>Александр Сергеевич	Кахидзе</name>
+    <email>as-kahidze@yandex.ru</email>
+    <description>Применение тренажеров и методик в  реабилитации при заболеваниях, травмах</description>
+  </consultant>
+</consultants>
+<demozal>
+  <address type="demo" title="Демонстрационный зал">г.Москва, ул. 1-я Владимирская 29к2 оф. 15</address>
+  <overview titile="В зале проводятся">Занятия, обучение и консультации</overview>
+  <features>
+    <feature title="Обучение и консультации">
+      <p>Применение волновых тренажеров</p>
+      <ul>
+        <li>в общеоздоровительных целях</li>
+        <li>в спортивно-тренировочных целях</li>
+        <li>в лечебно-востановительных целях</li>
+      </ul>
+    </feature>
+  </features>
+</demozal>
+</info>

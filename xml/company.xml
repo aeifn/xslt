@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<company>
+  <name>ООО «Тренажеры Агашина»</name>
+  <slogan>Волновые технологии для здоровья и спорта</slogan>
+  <year-founded>2019</year-founded>
+  <address type="legal" title="Юридический адрес">142718, Россия, Московская обл., Ленинский р-н, с/п Булатниковское, п. Измайлово, д. 3</address>
+  <address type="producing" title="Адрес производства">д. Федюково Московской области</address>
+  <inn>5003132974</inn>
+  <ogrn>1195027006448</ogrn>
+  <kpp>500301001</kpp>
+  <gendir title="Генеральный директор">
+    <name>Иван Александрович Попов</name>
+    <email>popov@thebestchair.ru</email>
+  </gendir>
+</company>

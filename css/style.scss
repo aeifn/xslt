@@ -5,6 +5,8 @@ $p-padding: $li-padding;
 
 // SIZES
 $span: 1em;
+$mspan: $span/2;
+$semispan: $mspan;
 // COLORS
 $yellow: yellow;
 $red: red;
@@ -13,6 +15,59 @@ $li-bg: #ccffcc; //светло-салатовый
 
 $h3-size: 1.5em;
 
+@mixin float-right {
+  float: right;
+  margin: 0 0 $span $span;
+}
+
+.float-right {
+  @include float-right;
+}
+
+.float-left{
+  float:left;
+  margin:0 $span $mspan 0
+}
+
+
+.amoform {
+  @include float-right;
+  //background: gray;
+  padding-right:$span;
+}
+
+.li-bg {
+  background: $li-bg;
+}
+
+hr {
+  margin: $span $p-padding;
+}
+
+#menu {
+  margin-bottom: $mspan;
+  li {
+  display: inline-block;
+  width: 20%;
+
+  }
+li,a {
+  color: $red;
+  background: $yellow;
+}
+a {
+  display: block;
+
+}
+.current {
+  color: black;
+}
+}
+
+img {
+  max-width:600px;
+  max-height: 600px;
+}
 p {
   padding: $p-padding;
 }
@@ -34,8 +89,6 @@ p {
 
 body {
   padding: $body-padding;
-  padding-left: 20%;
-  padding-right: 20%;
 }
 
 
@@ -74,6 +127,7 @@ li {
 
 #header {
   background: $yellow;
+  margin-bottom: $semispan;
 }
 
 #header h1 {

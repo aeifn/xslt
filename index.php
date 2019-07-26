@@ -1,13 +1,12 @@
 <?php
+   $query=$_GET['q'];
 
-   $xslDoc = new DOMDocument();
-   $xslDoc->load("site.xsl");
-
-   $xmlDoc = new DOMDocument();
-   $xmlDoc->load("site.xml");
+   $xslDoc=simplexml_load_file("xslt/index.xsl");
+   $xmlDoc=simplexml_load_file("xml/index.xml");
 
    $proc = new XSLTProcessor();
    $proc->importStylesheet($xslDoc);
-   echo $proc->transformToXML($xmlDoc);
+   $proc->setParameter('','query',$query);
 
+   echo $proc->transformToXML($xmlDoc);
 ?>
