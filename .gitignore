@@ -3,3 +3,4 @@ img
 .sass-cache
 style.css
 dist
+node_modules
