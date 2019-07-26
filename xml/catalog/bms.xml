@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+  <class name="Биомеханические станки">
+    <comment>Для игровых видов спорта, циклических, сложнокоординационных, единоборств и др.</comment>
+    <aim>Разминка, тренировка, травмопрофилактика, восстановление</aim>
+    <product type="bms">
+      <title>БМС универсальные, комплексн.</title>
+      <price>101 000</price>
+      <price for="school">81000</price>
+      <image>bms-universal</image>
+      <param>
+        <height type="meters">0,8-2,2</height>
+        <length type="meters">0,8-1,5</length>
+        <width type="meters">0,5-0,7</width>
+        <mass type="kg">10-50</mass>
+      </param>
+    </product>
+    <product type="bms">
+      <title>БМС универсальные</title>
+      <images>
+        <image src="bms-universal-wolleyball"/>
+        <title>Волейбол</title>
+        <image src="bms-universal-wolleyball-and-metanie"/>
+        <title>Волейбол, метание</title>
+      </images>
+      <price>85000</price>
+      <price for="school">68000</price>
+      <image>bms-universal</image>
+      <param>
+        <height type="meters">0,8-2,2</height>
+        <length type="meters">0,8-1,5</length>
+        <width type="meters">0,5-0,7</width>
+        <mass type="kg">10-50</mass>
+      </param>
+    </product>
+    <product type="bms">
+      <title>БМС спортивные. Бокс, единоборства, Футбол, хоккей</title>
+      <aim>Тренировка скоростно-силовых качеств, выносли-вости, точности, координации, стабильности и др.</aim>
+      <patent>Продукция.  БМС универсальные и спортивные (Патент РФ)</patent>
+      <image src="bms-sport"/>
+      <price>85000</price>
+      <price for="school">68000</price>
+      <image>bms-universal</image>
+      <param>
+        <height type="meters">0,8-2,2</height>
+        <length type="meters">0,8-1,5</length>
+        <width type="meters">0,5-0,7</width>
+        <mass type="kg">10-50</mass>
+      </param>
+    </product>
+  </class>
+</catalog>
