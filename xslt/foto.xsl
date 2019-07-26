@@ -12,7 +12,7 @@
 
   <xsl:template match="prim">
     <div>
-      <img src="img/{@img}.png"/>
+      <img src="img/{@img}.png" class="rounded"/>
       <br/>
       <xsl:value-of select='.'/>
     </div>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <navigation>
-  <menu-item id="about" src="about.xml" title="Компания"/>
-  <menu-item id="postavki" src="postavki.xml" title="Поставки тренажеров"/>
-  <menu-item id="info-tests" src="info-tests.xml" title="Инфо-испытания"/>
-  <menu-item id="zakaz-pokupka" src="zakaz-pokupka.xml" title="Заказ-покупка"/>
-  <menu-item id="foto" src="foto.xml" title="Применение-Фото"/>
-  <menu-item id="prinzip" src="prinzip.xml" title="Принцип действия"/>
-  <menu-item id="naznachenie" src="naznachenie.xml" title="Назначение"/>
+  <nav-item id="about" src="about.xml" title="Компания"/>
+  <nav-item id="postavki" src="postavki.xml" title="Поставки тренажеров"/>
+  <nav-item id="info-tests" src="info-tests.xml" title="Инфо-испытания"/>
+  <nav-item id="zakaz-pokupka" src="zakaz-pokupka.xml" title="Заказ-покупка"/>
+  <nav-item id="foto" src="foto.xml" title="Применение-Фото"/>
+  <nav-item id="prinzip" src="prinzip.xml" title="Принцип действия"/>
+  <nav-item id="naznachenie" src="naznachenie.xml" title="Назначение"/>
   <!--Модели-каталог-->
   <!--Модели-фото-->
   <!--Модели-параметры-->
@@ -17,7 +17,7 @@
   <!--Изм. комплекс БМС-->
   <!--Биомеханические стойки-->
   <!--Измерительные системы-->
-  <menu-item id="bmr" src="bmr.xml" title="Биомеханический резонанс"/>
+  <nav-item id="bmr" src="bmr.xml" title="Биомеханический резонанс"/>
   <!--От авторов-->
   <!--Обучение контакты-->
 </navigation>

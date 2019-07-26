@@ -3,17 +3,21 @@
   <xsl:template match="/">
     <html>
       <head>
-        <link rel="stylesheet" href="css/style.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
         <title>
         </title>
       </head>
       <body>
-        <xsl:call-template name="menu"/>
-        <xsl:call-template name="header"/>
-        <xsl:call-template name="amoform"/>
-        <xsl:apply-templates mode="navigation"/>
-        <xsl:call-template name="footer"/>
-        <xsl:call-template name="amochat"/>
+        <div class="container">
+          <xsl:call-template name="menu"/>
+          <xsl:call-template name="header"/>
+          <xsl:call-template name="amoform"/>
+          <xsl:apply-templates mode="navigation"/>
+          <xsl:call-template name="footer"/>
+          <xsl:call-template name="amochat"/>
+          <script src="./dist/main.js">
+          </script>
+        </div>
       </body>
     </html>
   </xsl:template>

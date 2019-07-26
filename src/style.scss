@@ -1,0 +1,111 @@
+@import "~bootstrap/scss/bootstrap";
+
+
+$body-padding: 2em;
+$li-padding: 5px;
+$h-padding: 7px;
+$p-padding: $li-padding;
+
+// SIZES
+$span: 1em;
+$mspan: $span/2;
+$semispan: $mspan;
+// COLORS
+$yellow: yellow;
+$red: red;
+$blue: blue;
+$li-bg: #ccffcc; //светло-салатовый
+
+$h3-size: 1.5em;
+
+@mixin float-right {
+  float: right;
+  margin: 0 0 $span $span;
+}
+
+
+
+.amoform {
+  @include float-right;
+  background: white;
+  padding-right:$span;
+  height: 530px;
+}
+
+.li-bg {
+  background: $li-bg;
+}
+
+hr {
+  margin: $span $p-padding;
+}
+
+
+
+img {
+  max-width:600px;
+  max-height: 600px;
+}
+
+.red {
+  color: $red;
+}
+
+.demozal {
+  margin-top: $span;
+  background: $li-bg;
+  color: $blue;
+  font-size: $h3-size;
+}
+
+
+body {
+  padding: $body-padding;
+}
+
+
+.yellow-red {
+  color:yellow;
+  background: red;
+}
+
+.red-yellow {
+  color:red;
+  background:yellow;
+}
+
+.lime {
+  background: lime;
+}
+
+.aqua {
+  background: Aqua;
+}
+
+.yellow-blue {
+  color:yellow;
+  background: Blue;
+}
+
+h1,h2,h3 {
+  padding: $h-padding;
+}
+
+page li {
+  padding: $li-padding;
+  list-style: none;
+  background: $li-bg;
+}
+
+#header {
+  background: $yellow;
+  margin-bottom: $semispan;
+}
+
+#header h1 {
+  color: $red;
+}
+
+#header h2 {
+  color: $blue;
+}

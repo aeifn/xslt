@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <page id="zakaz-pokupka" title="Заказ-покупка">
-  <images>
-    <image src="zakaz-pokupka" class="float-left"/>
-    <image src="zakaz-pokupka2" class="float-right"/>
-    <image src="zakaz-pokupka1" class="float-right"/>
-  </images>
   <content>
+    <image src="zakaz-pokupka"/>
+    <image src="zakaz-pokupka2"/>
+    <image src="zakaz-pokupka1" class="float-right"/>
+
     <p>Поставки Волновых "Тренажеров Агашина" в образовательные, социальные, спортивные, медицинские и другие учреждения.</p>
     <p>Уважаемые пользователи, в демонстрационном зале Вы можете ознако-миться с Тренажерами и их действием, попробовать разные модели, полу-чить подробную информацию, консультацию по проведению занятий</p>
     <h3>Приобрести</h3>
+
     <p>В офисе, интернет-магазине, у дилеров, заказать по телефону</p>
     <h3>Оплата</h3>
     <p>Для организаций - безналичный расчет, оплата по счету, по договору;</p>

@@ -4,6 +4,6 @@
     <xsl:apply-templates select="image"/>
   </xsl:template>
   <xsl:template match="image">
-    <img src="img/{@src}.png" class="{@class}"/>
+    <img src="img/{@src}.png" class="{@class} rounded"/>
   </xsl:template>
 </xsl:stylesheet>
