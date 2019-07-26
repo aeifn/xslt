@@ -12,15 +12,16 @@
   <xsl:template name="header">
     <xsl:apply-templates select="$company" mode="header"/>
   </xsl:template>
+  <!-- HEEEEEEADDDDD -->
   <xsl:template match="company" mode="header">
-    <div class="row" id="header">
+    <div id="header">
       <h1>
         <xsl:value-of select="name"/>
       </h1>
       <h2>
         <xsl:value-of select="slogan"/>
       </h2>
-      <a href="tel:{phone/@tel}"><xsl:value-of select="phone"/></a>
+      <a class="phone" href="tel:{phone/@tel}"><xsl:value-of select="phone"/></a>
     </div>
   </xsl:template>
 </xsl:stylesheet>

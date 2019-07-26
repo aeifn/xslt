@@ -12,7 +12,9 @@
           <xsl:call-template name="menu"/>
           <xsl:call-template name="header"/>
           <xsl:call-template name="amoform"/>
-          <xsl:apply-templates mode="navigation"/>
+          <page>
+            <xsl:apply-templates mode="navigation"/>
+          </page>
           <xsl:call-template name="footer"/>
           <xsl:call-template name="amochat"/>
           <script src="./dist/main.js">

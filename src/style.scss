@@ -15,12 +15,33 @@ $yellow: yellow;
 $red: red;
 $blue: blue;
 $li-bg: #ccffcc; //светло-салатовый
+$white: white;
 
 $h3-size: 1.5em;
 
 @mixin float-right {
   float: right;
   margin: 0 0 $span $span;
+}
+
+#menu {
+  padding: 0;
+  li {
+    display: inline-block;
+    background: $green;
+    margin-top: $mspan;
+    margin-right: $mspan;
+    a {
+      color: $white;
+    }
+
+    span.active {
+      font-weight: bold;
+      & {
+        background:$yellow;
+      }
+    }
+  }
 }
 
 
@@ -91,21 +112,32 @@ h1,h2,h3 {
   padding: $h-padding;
 }
 
-page li {
+page {
+  li {
   padding: $li-padding;
   list-style: none;
   background: $li-bg;
-}
+}}
 
 #header {
   background: $yellow;
   margin-bottom: $semispan;
-}
-
-#header h1 {
-  color: $red;
-}
-
-#header h2 {
-  color: $blue;
+  padding: $span;
+  * {
+    padding: 0;
+  }
+  h1 {
+    color: $red;
+    font-size: 2em;
+  }
+  h2 {
+    color: $blue;
+    font-size: 1em;
+    display: inline;
+  }
+  .phone {
+    margin-left:2em;
+    @include float-right;
+    display: inline;
+  }
 }
