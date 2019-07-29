@@ -5,7 +5,21 @@
       <xsl:apply-templates select="nav" mode="menu"/>
     </ul>
   </xsl:template>
+  <!--INTERNAL HREF-->
   <xsl:template match="nav-item" mode="menu">
+    <xsl:call-template name="nav-item">
+      <xsl:with-param name="href" select="concat('?q=',@id)"/>
+    </xsl:call-template>
+  </xsl:template>
+  <!--EXTERNAL HREF-->
+  <xsl:template match="nav-item[@href]" mode="menu">
+    <xsl:call-template name="nav-item">
+      <xsl:with-param name="href" select="@href"/>
+    </xsl:call-template>
+  </xsl:template>
+  <!--RENDER ITEM-->
+  <xsl:template name="nav-item">
+    <xsl:param name="href"/>
     <li class="nav-item">
       <xsl:choose>
         <xsl:when test="@id=$query">
@@ -14,7 +28,7 @@
           </span>
         </xsl:when>
         <xsl:otherwise>
-          <a href="?q={@id}" class="nav-link">
+          <a href="{$href}" class="nav-link">
             <xsl:value-of select="@title"/>
           </a>
         </xsl:otherwise>

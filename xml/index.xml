@@ -8,6 +8,7 @@
   <nav-item id="foto" src="foto.xml" title="Применение-Фото"/>
   <nav-item id="prinzip" src="prinzip.xml" title="Принцип действия"/>
   <nav-item id="naznachenie" src="naznachenie.xml" title="Назначение"/>
+  <nav-item href="https://агашин.рф" title="Энциклопедия"/>
   <!--Модели-параметры-->
   <!--Выбрать модель-->
   <!--Консультации-->
